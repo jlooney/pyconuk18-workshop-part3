@@ -1,4 +1,4 @@
-# pyconuk18-workshop-part2
+# pyconuk18-workshop-part3
 Material for my workshop at PyconUK 2018. 
 
-Part 2 contains the django api setup 
+Part 3 contains prometheus metrics setup
