@@ -25,7 +25,7 @@ SECRET_KEY = 'vn9$z#ok58tjanl*x+fu@kr4*a87@-zih45s$*a2*6$3$m0%p4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['172.17.0.1', 'localhost']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'planets.apps.PlanetsConfig',
+    'metrics.apps.MetricsConfig',
 ]
 
 MIDDLEWARE = [
